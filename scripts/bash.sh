@@ -10,4 +10,4 @@ docker run --init --rm -it --gpus all -u ${UID}:${GID} \
   -v ${PROGRAM_DIR}:/workspace/src \
   -v ${WORKDIR}:/workspace/workspace \
   pytorch/pytorch:${DOCKER_IMAGE_TAG} \
-  python
+  bash

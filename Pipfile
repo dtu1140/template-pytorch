@@ -13,3 +13,4 @@ python_version = "3.6.9"
 [scripts]
 start = "scripts/start.sh"
 python = "scripts/python.sh"
+bash = "scripts/bash.sh"
