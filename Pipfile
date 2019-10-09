@@ -6,11 +6,16 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+tqdm = "*"
+torch = "*"
+torchvision = "*"
+tensorboard = "*"
 
 [requires]
 python_version = "3.6.9"
 
 [scripts]
-start = "scripts/start.sh"
+cpu = "python src/main.py"
+gpu = "scripts/gpu.sh"
 python = "scripts/python.sh"
 bash = "scripts/bash.sh"
